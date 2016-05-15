@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mf"
+            android:icon="@mipmap/ic_menu_home"
+            android:title="Home" />
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_fl"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Frame Layout" />
+        <item
+            android:id="@+id/nav_ll"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Linear Layout" />
+        <item
+            android:id="@+id/nav_rl"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Relative Layout" />
+        <item
+            android:id="@+id/nav_wv"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Web View" />
+
+    </group>
+
+</menu>

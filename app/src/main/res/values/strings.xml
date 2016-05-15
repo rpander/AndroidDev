@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Android Dev</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    //Main Fragment
+    <string name="welkom">Welkom in de Android Dev app van het Friesland College\nIn deze app worden de meest voorkomende Layouts die Android biedt uitgelegd.\nAlle code van deze app is terug te vinden op Github.</string>
+    <string name="GIT">GIT</string>
+
+    //Menuknop
+    <string name="action_settings">Share</string>
+
+    //Linear layout
+    <string name="to">To (heeft geen layout_weight)</string>
+    <string name="subject">Subject (heeft geen layout_weight)</string>
+    <string name="send">Send</string>
+    <string name="message">Message \n(heeft layout_weight="1" hierdoor neemt dit veld alle ruimte in die hij kan krijgen.
+        De andere 3 attributen (velden: to, subject en de knop Send) krijgen alleen de ruimte die ze minimaal nodig hebben.
+    \n\nDeze hele Linear Layout heeft android:orientation="vertical" meegekregen waardoor alle velden verticaal zijn opgesteld</string>
+
+    //Relative layout
+    <string name="to2">To (is parent door android:id="@+id/name mee te geven)</string>
+    <string name="subject2">Subject\n(heeft \nlayout_alignParentLeft="true" meegekregen en een layout_width="0dp" waardoor hij alle ruimte opneemt die over blijft)</string>
+    <string name="send2">Send</string>
+    <string name="message2">Message\n(heeft layout_alignParentRight="true" meegekregen en een layout_width="210dp"\n
+    \nDe button Send heeft een layout_alignParentRight="true" meegekregen en een android:layout_width="96dp" </string>
+
+    //Frame layout
+    <string name="fl_txt">In een Frame Layout zijn\ndeze negen posities mogelijk</string>
+
+    //Web view
+    <string name="web">Een Web View kan een gehele website weergeven met:\n\nWebView myWebView = (WebView) v.findViewById(R.id.webview);
+        myWebView.setWebViewClient(new WebViewClient());
+        myWebView.loadUrl("http://www.androiddev.nl/layouts/");</string>
+</resources>
