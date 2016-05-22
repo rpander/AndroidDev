@@ -23,17 +23,17 @@ public class WebViewFragment extends Fragment implements View.OnClickListener {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.web_view_fragment, container, false);
 
-        WebView myWebView = (WebView) v.findViewById(R.id.webview);
+        rootView = inflater.inflate(R.layout.web_view_fragment, container, false);
+
+        WebView myWebView = (WebView) rootView.findViewById(R.id.webview);
         myWebView.setWebViewClient(new WebViewClient());
         myWebView.loadUrl("http://www.androiddev.nl/layouts/");
 
         Button btn = (Button)rootView.findViewById(R.id.srcButton);
         btn.setOnClickListener(this);
 
-        return v;
+        return rootView;
 
     }
 

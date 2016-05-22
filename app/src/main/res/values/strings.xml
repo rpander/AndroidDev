@@ -4,7 +4,8 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     //Main Fragment
-    <string name="welkom">Welkom in de Android Dev app van het Friesland College\nIn deze app worden de meest voorkomende Layouts die Android biedt uitgelegd.\nAlle code van deze app is terug te vinden op Github.</string>
+    <string name="welkom">Welkom in de Android Dev app van het Friesland College</string>
+    <string name="intro">Deze app is bedoelt voor studenten die een Android app willen maken en hiervoor een Layout kiezen.\nIn deze app worden de meest voorkomende Layouts die Android biedt uitgelegd.\nIn het linker (hamburger) menu zie je de meest voorkomende Layouts uitgebeeld en uitgelegd.\nIn de les worden deze app en de verschillende layouts behandeld.\n\nDe code van deze app is terug te vinden op Github door op de GIT knop te drukken onder aan de pagina.</string>
     <string name="GIT">GIT</string>
 
     //Menuknop

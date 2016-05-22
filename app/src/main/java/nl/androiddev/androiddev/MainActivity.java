@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -94,7 +94,6 @@ public class MainActivity extends AppCompatActivity
             LinearLayoutFragment linearLayoutFragment = new LinearLayoutFragment();
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction().replace(R.id.content_main, linearLayoutFragment, linearLayoutFragment.getTag()).commit();
-
 
         } else if (id == R.id.nav_rl) {
             RelativeLayoutFragment relativeLayoutFragment = new RelativeLayoutFragment();
